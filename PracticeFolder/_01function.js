@@ -18,6 +18,17 @@ console.log("hello brother");
       console.log("this is the arrow function");
    }
    third();
+
+   
+function greet2(){
+   console.log("hello brother")
+};
+const greet=()=>{
+console.log("hello brother 2");
+};
+console.log(greet());
+
+
    //Higher order function
    function map(arr, callback) {
     let mappedArr = [];
