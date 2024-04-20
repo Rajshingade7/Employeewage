@@ -30,6 +30,8 @@ console.log(greet());
 
 
    //Higher order function
+   
+// In JavaScript, a higher-order function is a function that either takes one or more functions as arguments or returns a function as its result.
    function map(arr, callback) {
     let mappedArr = [];
     for (let i = 0; i < arr.length; i++) {
